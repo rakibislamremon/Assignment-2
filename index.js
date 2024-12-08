@@ -18,3 +18,11 @@ function isOdd(num) {
 }
 console.log(isOdd(18));
 console.log(isOdd(5));
+
+
+//3rd Function smallest number from the array
+
+function findMin() {
+    console.log(Math.min(113, 15, 58, 178, 99));
+}
+findMin();
