@@ -9,3 +9,12 @@ console.log(
 console.log(
     calculateDifference(56, 8)
 );
+
+
+//2nd Funtion isOdd
+
+function isOdd(num) {
+    return num % 2 !== 0;
+}
+console.log(isOdd(18));
+console.log(isOdd(5));
