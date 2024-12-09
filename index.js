@@ -63,3 +63,19 @@ function lowercaseFirstLetter(str){
 console.log(
     lowercaseFirstLetter("Rakibul Islam")
 );
+
+
+//7th Function Find Average
+
+function findAverage(numbers) {
+    if (numbers.length === 0) return 0;
+
+    let sum = 0;
+    for (let num of numbers) {
+        sum += num;
+    }
+    return sum / numbers.length;
+}
+console.log(
+    findAverage([60,55,75])
+);
