@@ -26,3 +26,12 @@ function findMin() {
     console.log(Math.min(113, 15, 58, 178, 99));
 }
 findMin();
+
+
+//4th Function Filter Even Numbers
+
+function filterEvenNumbers(numbers){
+    return numbers.filter(number => number % 2 === 0);
+}
+const array=[4,6,21,18,32,124,5,9,56,17,60];
+console.log(filterEvenNumbers(array));
