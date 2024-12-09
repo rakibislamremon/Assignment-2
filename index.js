@@ -51,3 +51,15 @@ function sortArrayDescending(numbers){
 console.log(
     sortArrayDescending(arr)
 );
+
+
+
+//6th Function Lowercase First Letter
+
+function lowercaseFirstLetter(str){
+    if (str === "") return str;
+    return str[0].toLowerCase() + str.slice(1);
+}
+console.log(
+    lowercaseFirstLetter("Rakibul Islam")
+);
