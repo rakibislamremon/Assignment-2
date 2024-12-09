@@ -30,8 +30,24 @@ findMin();
 
 //4th Function Filter Even Numbers
 
+const array=[4,6,21,18,32,124,5,9,56,17,60];
+
 function filterEvenNumbers(numbers){
     return numbers.filter(number => number % 2 === 0);
 }
-const array=[4,6,21,18,32,124,5,9,56,17,60];
+
 console.log(filterEvenNumbers(array));
+
+
+
+//5th Function Sort Array Descending
+
+const arr = [11, 29, 97, 17, 87, 35];
+
+function sortArrayDescending(numbers){
+    return numbers.sort().reverse();
+}
+
+console.log(
+    sortArrayDescending(arr)
+);
